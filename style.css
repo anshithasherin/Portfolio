@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Playwrite GB S", cursive;
+     font-optical-sizing: auto;
+    font-style: normal;
+}
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logoing{
+    height: 150px;
+    width: 150px;
+}
+.navelinks{
+    padding: 40px;
+}
+.navelinks>a{
+    margin-right: 40px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: font-size 1s;
+}
+.navelinks>a:hover{
+    font-size: 45px;
+}
+#home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.desc{
+    padding: 50px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.desc>a{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.imgcontainer{
+    position: relative;
+} 
+#img1{
+    width: 100%;
+}
+#img2{
+    width: 50%;
+    position: absolute;
+    top: 35px;
+    left: 94px;
+}
+#about{
+    padding: 30px;
+}
+#username{
+    color: blueviolet;
+}
+#about>h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.aboutcontainer{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#img3{
+    width: 100%;
+}
+.aboutinfo{
+    padding-left: 30px;
+}
+.aboutinfo>p{
+    text-align: justify;
+}
+.aboutinfo>ul{
+    margin-top: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
